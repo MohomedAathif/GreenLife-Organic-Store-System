@@ -1,0 +1,385 @@
+﻿namespace GreenLifeOrganicStore
+{
+    partial class CartForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CartForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            dgvCart = new Guna.UI2.WinForms.Guna2DataGridView();
+            btnPlaceOrder = new Guna.UI2.WinForms.Guna2Button();
+            lblTotal = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            btnRemoveItem = new Guna.UI2.WinForms.Guna2Button();
+            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            pictureBox1 = new PictureBox();
+            btnBack = new Guna.UI2.WinForms.Guna2Button();
+            guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            btnHome = new Guna.UI2.WinForms.Guna2Button();
+            pictureBox2 = new PictureBox();
+            btnSearchProducts = new Guna.UI2.WinForms.Guna2Button();
+            btnViewOrders = new Guna.UI2.WinForms.Guna2Button();
+            btnProfile = new Guna.UI2.WinForms.Guna2Button();
+            ((System.ComponentModel.ISupportInitialize)dgvCart).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            SuspendLayout();
+            // 
+            // dgvCart
+            // 
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dgvCart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dgvCart.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dgvCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dgvCart.ColumnHeadersHeight = 4;
+            dgvCart.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dgvCart.DefaultCellStyle = dataGridViewCellStyle3;
+            dgvCart.GridColor = Color.FromArgb(231, 229, 255);
+            dgvCart.Location = new Point(308, 109);
+            dgvCart.Name = "dgvCart";
+            dgvCart.ReadOnly = true;
+            dgvCart.RowHeadersVisible = false;
+            dgvCart.Size = new Size(372, 186);
+            dgvCart.TabIndex = 11;
+            dgvCart.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dgvCart.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dgvCart.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dgvCart.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dgvCart.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dgvCart.ThemeStyle.BackColor = Color.White;
+            dgvCart.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dgvCart.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dgvCart.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dgvCart.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dgvCart.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dgvCart.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dgvCart.ThemeStyle.HeaderStyle.Height = 4;
+            dgvCart.ThemeStyle.ReadOnly = true;
+            dgvCart.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dgvCart.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgvCart.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dgvCart.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dgvCart.ThemeStyle.RowsStyle.Height = 25;
+            dgvCart.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dgvCart.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            // 
+            // btnPlaceOrder
+            // 
+            btnPlaceOrder.AutoRoundedCorners = true;
+            btnPlaceOrder.BackColor = Color.Transparent;
+            btnPlaceOrder.BackgroundImageLayout = ImageLayout.None;
+            btnPlaceOrder.CustomizableEdges = customizableEdges1;
+            btnPlaceOrder.DisabledState.BorderColor = Color.DarkGray;
+            btnPlaceOrder.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnPlaceOrder.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnPlaceOrder.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnPlaceOrder.FillColor = Color.FromArgb(11, 61, 46);
+            btnPlaceOrder.Font = new Font("Stencil", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnPlaceOrder.ForeColor = Color.White;
+            btnPlaceOrder.Location = new Point(308, 369);
+            btnPlaceOrder.Name = "btnPlaceOrder";
+            btnPlaceOrder.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnPlaceOrder.Size = new Size(99, 45);
+            btnPlaceOrder.TabIndex = 10;
+            btnPlaceOrder.Text = "Place Order";
+            btnPlaceOrder.Click += btnPlaceOrder_Click;
+            // 
+            // lblTotal
+            // 
+            lblTotal.BackColor = Color.Transparent;
+            lblTotal.Font = new Font("Stencil", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTotal.ForeColor = Color.FromArgb(62, 120, 138);
+            lblTotal.Location = new Point(308, 319);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(48, 20);
+            lblTotal.TabIndex = 12;
+            lblTotal.Text = "Total";
+            // 
+            // btnRemoveItem
+            // 
+            btnRemoveItem.AutoRoundedCorners = true;
+            btnRemoveItem.BackColor = Color.Transparent;
+            btnRemoveItem.BackgroundImageLayout = ImageLayout.None;
+            btnRemoveItem.CustomizableEdges = customizableEdges3;
+            btnRemoveItem.DisabledState.BorderColor = Color.DarkGray;
+            btnRemoveItem.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnRemoveItem.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnRemoveItem.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnRemoveItem.FillColor = Color.FromArgb(11, 61, 46);
+            btnRemoveItem.Font = new Font("Stencil", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRemoveItem.ForeColor = Color.White;
+            btnRemoveItem.Location = new Point(446, 369);
+            btnRemoveItem.Name = "btnRemoveItem";
+            btnRemoveItem.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnRemoveItem.Size = new Size(99, 45);
+            btnRemoveItem.TabIndex = 10;
+            btnRemoveItem.Text = "Remove Item";
+            btnRemoveItem.Click += btnRemoveItem_Click;
+            // 
+            // guna2TextBox1
+            // 
+            guna2TextBox1.CustomizableEdges = customizableEdges5;
+            guna2TextBox1.DefaultText = "Cart";
+            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.FillColor = Color.FromArgb(11, 61, 46);
+            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.Font = new Font("Showcard Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2TextBox1.ForeColor = Color.Transparent;
+            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.Location = new Point(398, 14);
+            guna2TextBox1.Margin = new Padding(6, 5, 6, 5);
+            guna2TextBox1.Name = "guna2TextBox1";
+            guna2TextBox1.PlaceholderText = "";
+            guna2TextBox1.SelectedText = "";
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2TextBox1.Size = new Size(175, 55);
+            guna2TextBox1.TabIndex = 14;
+            guna2TextBox1.TabStop = false;
+            guna2TextBox1.TextAlign = HorizontalAlignment.Center;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox1.Location = new Point(750, 1);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(30, 24);
+            pictureBox1.TabIndex = 15;
+            pictureBox1.TabStop = false;
+            // 
+            // btnBack
+            // 
+            btnBack.AutoRoundedCorners = true;
+            btnBack.BackColor = Color.Transparent;
+            btnBack.BackgroundImageLayout = ImageLayout.None;
+            btnBack.CustomizableEdges = customizableEdges7;
+            btnBack.DisabledState.BorderColor = Color.DarkGray;
+            btnBack.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnBack.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnBack.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnBack.FillColor = Color.FromArgb(11, 61, 46);
+            btnBack.Font = new Font("Stencil", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnBack.ForeColor = Color.White;
+            btnBack.Location = new Point(581, 369);
+            btnBack.Name = "btnBack";
+            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnBack.Size = new Size(99, 45);
+            btnBack.TabIndex = 16;
+            btnBack.Text = "Back";
+            btnBack.Click += btnBack_Click;
+            // 
+            // guna2Panel3
+            // 
+            guna2Panel3.BackColor = Color.FromArgb(14, 75, 58);
+            guna2Panel3.Controls.Add(btnHome);
+            guna2Panel3.Controls.Add(pictureBox2);
+            guna2Panel3.Controls.Add(btnSearchProducts);
+            guna2Panel3.Controls.Add(btnViewOrders);
+            guna2Panel3.Controls.Add(btnProfile);
+            guna2Panel3.CustomizableEdges = customizableEdges17;
+            guna2Panel3.Location = new Point(-1, -4);
+            guna2Panel3.Name = "guna2Panel3";
+            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2Panel3.Size = new Size(235, 468);
+            guna2Panel3.TabIndex = 24;
+            // 
+            // btnHome
+            // 
+            btnHome.AutoRoundedCorners = true;
+            btnHome.BackColor = Color.Transparent;
+            btnHome.BackgroundImageLayout = ImageLayout.None;
+            btnHome.CustomizableEdges = customizableEdges9;
+            btnHome.DisabledState.BorderColor = Color.DarkGray;
+            btnHome.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnHome.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnHome.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnHome.FillColor = Color.FromArgb(14, 75, 58);
+            btnHome.Font = new Font("Stencil", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnHome.ForeColor = Color.White;
+            btnHome.Location = new Point(6, 182);
+            btnHome.Name = "btnHome";
+            btnHome.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnHome.Size = new Size(223, 45);
+            btnHome.TabIndex = 16;
+            btnHome.Text = "Home";
+            btnHome.Click += btnHome_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox2.Location = new Point(43, 17);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(143, 140);
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // btnSearchProducts
+            // 
+            btnSearchProducts.AutoRoundedCorners = true;
+            btnSearchProducts.BackColor = Color.Transparent;
+            btnSearchProducts.BackgroundImageLayout = ImageLayout.None;
+            btnSearchProducts.CustomizableEdges = customizableEdges11;
+            btnSearchProducts.DisabledState.BorderColor = Color.DarkGray;
+            btnSearchProducts.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSearchProducts.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSearchProducts.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSearchProducts.FillColor = Color.FromArgb(14, 75, 58);
+            btnSearchProducts.Font = new Font("Stencil", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSearchProducts.ForeColor = Color.White;
+            btnSearchProducts.Location = new Point(6, 242);
+            btnSearchProducts.Name = "btnSearchProducts";
+            btnSearchProducts.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnSearchProducts.Size = new Size(223, 45);
+            btnSearchProducts.TabIndex = 9;
+            btnSearchProducts.Text = "Search Products";
+            btnSearchProducts.Click += btnSearchProducts_Click;
+            // 
+            // btnViewOrders
+            // 
+            btnViewOrders.AutoRoundedCorners = true;
+            btnViewOrders.BackColor = Color.Transparent;
+            btnViewOrders.BackgroundImageLayout = ImageLayout.None;
+            btnViewOrders.CustomizableEdges = customizableEdges13;
+            btnViewOrders.DisabledState.BorderColor = Color.DarkGray;
+            btnViewOrders.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnViewOrders.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnViewOrders.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnViewOrders.FillColor = Color.FromArgb(14, 75, 58);
+            btnViewOrders.Font = new Font("Stencil", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnViewOrders.ForeColor = Color.White;
+            btnViewOrders.Location = new Point(6, 306);
+            btnViewOrders.Name = "btnViewOrders";
+            btnViewOrders.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnViewOrders.Size = new Size(223, 45);
+            btnViewOrders.TabIndex = 8;
+            btnViewOrders.Text = "View Orders";
+            btnViewOrders.Click += btnViewOrders_Click;
+            // 
+            // btnProfile
+            // 
+            btnProfile.AutoRoundedCorners = true;
+            btnProfile.BackColor = Color.Transparent;
+            btnProfile.BackgroundImageLayout = ImageLayout.None;
+            btnProfile.CustomizableEdges = customizableEdges15;
+            btnProfile.DisabledState.BorderColor = Color.DarkGray;
+            btnProfile.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnProfile.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnProfile.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnProfile.FillColor = Color.FromArgb(14, 75, 58);
+            btnProfile.Font = new Font("Stencil", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnProfile.ForeColor = Color.White;
+            btnProfile.Location = new Point(6, 368);
+            btnProfile.Name = "btnProfile";
+            btnProfile.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnProfile.Size = new Size(223, 45);
+            btnProfile.TabIndex = 7;
+            btnProfile.Text = "Profile";
+            btnProfile.Click += btnProfile_Click;
+            // 
+            // CartForm
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(225, 236, 231);
+            ClientSize = new Size(783, 461);
+            Controls.Add(guna2Panel3);
+            Controls.Add(btnBack);
+            Controls.Add(pictureBox1);
+            Controls.Add(guna2TextBox1);
+            Controls.Add(lblTotal);
+            Controls.Add(dgvCart);
+            Controls.Add(btnRemoveItem);
+            Controls.Add(btnPlaceOrder);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "CartForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "CartForm";
+            Load += CartForm_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvCart).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            guna2Panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Guna.UI2.WinForms.Guna2DataGridView dgvCart;
+        private Guna.UI2.WinForms.Guna2Button btnPlaceOrder;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotal;
+        private Guna.UI2.WinForms.Guna2Button btnRemoveItem;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private Guna.UI2.WinForms.Guna2Button btnClose;
+        private Guna.UI2.WinForms.Guna2Button btnBack;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Button btnHome;
+        private Guna.UI2.WinForms.Guna2Button btnSearchProducts;
+        private Guna.UI2.WinForms.Guna2Button btnViewOrders;
+        private Guna.UI2.WinForms.Guna2Button btnProfile;
+    }
+}
